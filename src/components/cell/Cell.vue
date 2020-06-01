@@ -7,16 +7,18 @@
 			<router-link to="basicsIndices" tag="span" >我的收藏</router-link>
 			<router-link to="weightPending" tag="span">我的足迹</router-link>
 		</div>
-    <div>
+    
     <div>
       <router-view></router-view>
     </div>
     <br>
-    <div>
 
+    <div>
       store里的值：{{pageName}}
     </div>
-    </div>
+    <div>{{curEnd}}</div>
+
+     <el-button type="success">测试</el-button>
 	</div>
 	
 </template>
@@ -31,7 +33,7 @@ import { mapGetters, mapActions } from "vuex";
 
 	  data() {
       return {
-     
+        curEnd:"1234"
       
       };
     },
@@ -44,8 +46,9 @@ import { mapGetters, mapActions } from "vuex";
     },
     mounted() {
       this.showPeople("zhangsan")
-		},
-	
+     
+    },
+  
     methods: {
  		  // 挂载 Vuex action，用于向中央仓库写入新的 dateRange
       // 设置新的 dateRange 的时候，调用此 action

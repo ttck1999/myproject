@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
-import Cell from '@/components/cell/Cell'
-import BasicsIndices from '@/components/cell/BasicsIndices'
-import WeightPending from '@/components/cell/WeightPending'
+import Cell from '@/page/cell/Cell'
+import BasicsIndices from '@/page/cell/BasicsIndices'
+import WeightPending from '@/page/cell/WeightPending'
 
 Vue.use(Router)
 

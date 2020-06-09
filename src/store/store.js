@@ -5,7 +5,7 @@ import pageName from "./name"
 Vue.use(Vuex);
 const modules = {
   "date-range": dateRange,
-  "page-name":pageName
+  "page-name": pageName
 };
 const store = new Vuex.Store({ modules });
 

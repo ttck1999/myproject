@@ -19,8 +19,8 @@ export default new Router({
       name: 'Cell',
       component: Cell,
       children: [
-        {name: 'basicsIndices', path: 'basicsIndices', component: BasicsIndices},
-        {name: 'weightPending', path: 'weightPending', component: WeightPending}
+        { name: 'basicsIndices', path: 'basicsIndices', component: BasicsIndices },
+        { name: 'weightPending', path: 'weightPending', component: WeightPending }
       ]
     }
   ]

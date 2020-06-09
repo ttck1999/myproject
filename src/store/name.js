@@ -1,7 +1,7 @@
 export default {
-  state:{
-    pageName:"奥利奥",
-    age:"18"
+  state: {
+    pageName: "奥利奥",
+    age: "18"
   },
   mutations: {
     SHOW_PEOPLE: (state, pageName) => {
@@ -17,7 +17,7 @@ export default {
 
   actions: {
     showPeople({ commit }, payload) {
-      commit("SHOW_PEOPLE",  payload);
+      commit("SHOW_PEOPLE", payload);
     }
   }
 }

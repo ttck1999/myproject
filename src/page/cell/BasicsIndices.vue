@@ -1,24 +1,19 @@
 <template>
-  <div class="basics-indices">
-   basics-indices
-  </div>
+  <div class="basics-indices">basics-indices</div>
 </template>
 
 <script>
 export default {
-  name: 'basics-indices',
+  name: "basics-indices",
 
-  data () {
+  data() {
     return {
-      msg: 'Welcome to Your Vue.js App'
-      
-    }
+      msg: "Welcome to Your Vue.js App"
+    };
   }
-  
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-
 </style>

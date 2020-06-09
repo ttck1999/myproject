@@ -5,8 +5,12 @@
 
     <h3>点击切换</h3>
     <div>
-      <router-link to="/cell/basicsIndices" tag="span">我的收藏</router-link>
-      <router-link to="/cell/weightPending" tag="span">我的足迹</router-link>
+      <span>
+        <router-link to="/cell/basicsIndices">我的收藏</router-link>
+      </span>
+      <span>
+        <router-link to="/cell/weightPending">我的足迹</router-link>
+      </span>
     </div>
 
     <div>
@@ -117,7 +121,7 @@ export default {
   }
 };
 </script>
-<style scoped lang="scss">
+<style lang="scss">
 .cell-page {
   width: 100%;
   height: 100%;
